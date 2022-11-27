@@ -83,6 +83,13 @@
 ## Задание 3
 ### Построить визуальную модель работы перцепторна на сцене Unity.
 
+![image](https://user-images.githubusercontent.com/102030455/204132133-e4738037-06b7-4d4f-87ea-c3f5a450020f.png)
+
+![image](https://user-images.githubusercontent.com/102030455/204132155-b0264992-cb0e-427e-83b2-0fef0e7f42cf.png)
+![image](https://user-images.githubusercontent.com/102030455/204132156-6d76d417-657b-4e05-99ab-a78d9db886e7.png)
+![image](https://user-images.githubusercontent.com/102030455/204132167-4d86e188-9371-4e54-83f6-baad5a357951.png)
+
+
 
 ## Выводы
 
