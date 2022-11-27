@@ -42,6 +42,10 @@
  - Создала пустой проект на Unity. Там был создан пустой объект, к которому был прикреплён скрипт-файл.
 
 ![image](https://user-images.githubusercontent.com/102030455/204128372-0edbfd9c-0c3c-4418-943a-15634c047ed1.png)
+ - Далее присвоила значения для работы функии OR:
+
+ ![image](https://user-images.githubusercontent.com/102030455/204128564-417f32db-08ba-4e7e-b432-c6652f7c55c3.png)
+
 
 
 
