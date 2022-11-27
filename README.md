@@ -83,10 +83,39 @@
 ## Задание 3
 ### Построить визуальную модель работы перцепторна на сцене Unity.
 
+ - В том же проекте создала сцену с кубими и полом. Черные кубы соответствуют значению 0, а белые значению 1.
 ![image](https://user-images.githubusercontent.com/102030455/204132133-e4738037-06b7-4d4f-87ea-c3f5a450020f.png)
+.
+.
 
-![image](https://user-images.githubusercontent.com/102030455/204132155-b0264992-cb0e-427e-83b2-0fef0e7f42cf.png)
+ - Далее использовала скрипт, который был продемонстрирован на лекции. Внесла в него изменения, чтобы в итоге показывался результат работы функции NAND.
+
+```cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ChangeColor : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<Renderer>().material.color == Color.black && this.gameObject.GetComponent<Renderer>().material.color == Color.black)
+        {
+            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            this.gameObject.GetComponent<Renderer>().material.color = Color.white;
+        }
+        else
+        {
+            other.gameObject.GetComponent<Renderer>().material.color = Color.black;
+            this.gameObject.GetComponent<Renderer>().material.color = Color.black;
+        }
+    }
+}
+```
+ - Запускаю сцену и получаю следующий результат:
+
 ![image](https://user-images.githubusercontent.com/102030455/204132156-6d76d417-657b-4e05-99ab-a78d9db886e7.png)
+
 ![image](https://user-images.githubusercontent.com/102030455/204132167-4d86e188-9371-4e54-83f6-baad5a357951.png)
 
 
