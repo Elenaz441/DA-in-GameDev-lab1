@@ -77,6 +77,7 @@
 
 ![image](https://user-images.githubusercontent.com/102030455/204130402-9f042a16-1932-4ea9-bdf3-58345ef2d69a.png)
 
+Количество эпох обучения зависит от смещения (bias) и веса переменных (weight).
 
 
 ## Задание 3
