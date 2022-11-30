@@ -52,6 +52,9 @@
  - Результат обучения появился в соответствующей папке.
  ![image](https://user-images.githubusercontent.com/102030455/204794219-8487be7d-0df5-41df-8cb1-d7954d7f97c6.png)
 
+- Построила графики для оценки результатов обучения в TensorBoard.
+![image](https://user-images.githubusercontent.com/102030455/204803803-29ce03b7-07f8-4cf4-99cd-8c2a24dfad1e.png)
+
 
 
 
