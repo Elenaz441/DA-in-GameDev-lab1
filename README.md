@@ -74,6 +74,9 @@
 
 - Изменила параметр learning_rate поменяв значение 3.0e-4 на значение 2.0e-4
 
+![image](https://user-images.githubusercontent.com/102030455/204817729-04a18d4d-f667-4670-b23c-16f7ccc1c51c.png)
+
+
 
 
 ## Задание 2
