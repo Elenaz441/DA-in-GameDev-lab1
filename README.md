@@ -1,5 +1,5 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
-Отчет по лабораторной работе #4 выполнил(а):
+Отчет по лабораторной работе #5 выполнил(а):
 - Засыпкина Елена Юрьевна
 - РИ210940
 Отметка о выполнении заданий (заполняется студентом):
@@ -35,89 +35,18 @@
 - ✨Magic ✨
 
 ## Цель работы
-Познакомиться с работой перцептрона
+Осуществить интеграцию экономической системы в проект Unity и обучить ML-Agent.
 
 ## Задание 1
-### В проекте Unity реализовать перцепторн, который умеет производить некоторые вычисления.
- - Создала пустой проект на Unity. Там был создан пустой объект, к которому был прикреплён скрипт-файл.
+### Измените параметры файла. yaml-агента и определить какие параметры и как влияют на обучение модели.
 
-![image](https://user-images.githubusercontent.com/102030455/204128372-0edbfd9c-0c3c-4418-943a-15634c047ed1.png)
-.
-.
-
- - Далее присвоила значения так, чтобы перцептрон начал работать как функция OR:
-
- ![image](https://user-images.githubusercontent.com/102030455/204128564-417f32db-08ba-4e7e-b432-c6652f7c55c3.png)
- .
- .
- 
- - Перцептрону хватило 4-х эпох, чтобы обучиться работать как функция OR. Все тесты пройдены:
-
-![image](https://user-images.githubusercontent.com/102030455/204129015-52b95f63-16bc-446b-81b1-187018735ff1.png)
-.
-.
- - Далее ввела данные для функции AND. Перцептрону потребовалось 3-х эпох для обучения. Тесты пройдены:
-
-![image](https://user-images.githubusercontent.com/102030455/204129242-7a43c86c-2189-47e3-8697-ab728e7f835b.png)
-.
-.
- - Далее ввела данные для функции NAND. Перцептрону потребовалось 6 эпох для обучения. Тесты пройдены:
-
-![image](https://user-images.githubusercontent.com/102030455/204129390-7423086a-0bbf-45e0-a304-5b0da0d3879c.png)
-.
-.
- -  Далее ввела данные для функции XOR. Перцептрон не смог обучиться за 100 эпох. Тесты не пройдены:
- 
-![image](https://user-images.githubusercontent.com/102030455/204129525-d930dc6a-6342-479d-b1bf-557d570dc9a6.png)
+ - Запустила проект на Unity.
+ ![image](https://user-images.githubusercontent.com/102030455/204776954-a5b5ee76-a5b7-45fa-8312-506bbef2b838.png)
 
 
 
 ## Задание 2
-### Построить графики зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
-
-![image](https://user-images.githubusercontent.com/102030455/204130402-9f042a16-1932-4ea9-bdf3-58345ef2d69a.png)
-
-Количество эпох обучения зависит от смещения (bias) и веса переменных (weight).
-
-
-## Задание 3
-### Построить визуальную модель работы перцепторна на сцене Unity.
-
- - В том же проекте создала сцену с кубими и полом. Черные кубы соответствуют значению 0, а белые значению 1.
-![image](https://user-images.githubusercontent.com/102030455/204132133-e4738037-06b7-4d4f-87ea-c3f5a450020f.png)
-.
-.
-
- - Далее использовала скрипт, который был продемонстрирован на лекции. Внесла в него изменения, чтобы в итоге показывался результат работы функции NAND.
-
-```cs
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ChangeColor : MonoBehaviour
-{
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.GetComponent<Renderer>().material.color == Color.black && this.gameObject.GetComponent<Renderer>().material.color == Color.black)
-        {
-            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
-            this.gameObject.GetComponent<Renderer>().material.color = Color.white;
-        }
-        else
-        {
-            other.gameObject.GetComponent<Renderer>().material.color = Color.black;
-            this.gameObject.GetComponent<Renderer>().material.color = Color.black;
-        }
-    }
-}
-```
- - Запускаю сцену и получаю следующий результат:
-
-![image](https://user-images.githubusercontent.com/102030455/204132156-6d76d417-657b-4e05-99ab-a78d9db886e7.png)
-
-![image](https://user-images.githubusercontent.com/102030455/204132167-4d86e188-9371-4e54-83f6-baad5a357951.png)
-
+### Опишите результаты, выведенные в TensorBoard.
 
 
 ## Выводы
