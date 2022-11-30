@@ -55,6 +55,10 @@
 - Построила графики для оценки результатов обучения в TensorBoard.
 ![image](https://user-images.githubusercontent.com/102030455/204803803-29ce03b7-07f8-4cf4-99cd-8c2a24dfad1e.png)
 
+- Изменила параметр strength поменяв значение 1 на значение 5
+![image](https://user-images.githubusercontent.com/102030455/204806734-d8c35f0c-e557-4b2b-b10d-a12c58c4ba0f.png)
+
+
 
 
 
