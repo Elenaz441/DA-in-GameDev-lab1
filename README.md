@@ -76,7 +76,7 @@
 
 ![image](https://user-images.githubusercontent.com/102030455/204817729-04a18d4d-f667-4670-b23c-16f7ccc1c51c.png)
 
-
+- Изменила параметр time_horizon поменяв значение 64 на значение 32
 
 
 ## Задание 2
