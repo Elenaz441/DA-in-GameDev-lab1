@@ -42,6 +42,13 @@
 
  - Запустила предоставленный проект на Unity. Добавила в проект ml-agents-release_19. Также ознакомилась с работой проекта.
  ![image](https://user-images.githubusercontent.com/102030455/204776954-a5b5ee76-a5b7-45fa-8312-506bbef2b838.png)
+ 
+ - Запустила Anaconda Prompt. Активировала виртуальное окружение, которое было создано в лабораторной работе 3. перешла в папку с yaml-файлом. Запустила обучение.
+ ![image](https://user-images.githubusercontent.com/102030455/204792280-a3832f18-0a62-4258-8365-9401cc8bfc9e.png)
+ 
+ - Осуществилось обучение
+ ![image](https://user-images.githubusercontent.com/102030455/204792498-a318b127-0e8c-493c-bd01-56680ed57948.png)
+
 
 
 
