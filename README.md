@@ -41,22 +41,33 @@
 ### Измените параметры файла. yaml-агента и определить какие параметры и как влияют на обучение модели.
 
  - Запустила предоставленный проект на Unity. Добавила в проект ml-agents-release_19. Также ознакомилась с работой проекта.
+ 
  ![image](https://user-images.githubusercontent.com/102030455/204776954-a5b5ee76-a5b7-45fa-8312-506bbef2b838.png)
  
  - Запустила Anaconda Prompt. Активировала виртуальное окружение, которое было создано в лабораторной работе 3. перешла в папку с yaml-файлом. Запустила обучение.
+ 
  ![image](https://user-images.githubusercontent.com/102030455/204792280-a3832f18-0a62-4258-8365-9401cc8bfc9e.png)
  
  - Осуществилось обучение
+ 
  ![image](https://user-images.githubusercontent.com/102030455/204792498-a318b127-0e8c-493c-bd01-56680ed57948.png)
  
  - Результат обучения появился в соответствующей папке.
+ 
  ![image](https://user-images.githubusercontent.com/102030455/204794219-8487be7d-0df5-41df-8cb1-d7954d7f97c6.png)
 
 - Построила графики для оценки результатов обучения в TensorBoard.
+
 ![image](https://user-images.githubusercontent.com/102030455/204803803-29ce03b7-07f8-4cf4-99cd-8c2a24dfad1e.png)
 
 - Изменила параметр strength поменяв значение 1 на значение 5
+
 ![image](https://user-images.githubusercontent.com/102030455/204806734-d8c35f0c-e557-4b2b-b10d-a12c58c4ba0f.png)
+
+- Изменила параметр gamma поменяв значение 0.99 на значение 0.5
+
+![image](https://user-images.githubusercontent.com/102030455/204810896-f31783c9-b186-4785-9f47-bcb18f970797.png)
+
 
 
 
